@@ -1,0 +1,62 @@
+html {
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+
+/* .game {
+    position: relative;
+    height: 70%;
+    width:70%;
+} */
+
+#game {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/898/815/592/pacman-video-games-clyde-inky-wallpaper-preview.jpg");
+    background-size: 100%;
+    border: 5px solid #05A8AA;
+    margin: auto;
+    position: absolute;
+    height: 540px;
+    width: 960px;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+  }
+
+button {
+    position: relative;
+    top: 90%;
+    left: 35%;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    background-color: transparent;
+}
+
+button:hover {
+    color: black;
+    border-color:#DDDDDD;
+    background-color: #DDDDDD;
+}
+
+button:active {
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+}
+
+@media all and (max-width:30em){
+    button{
+    display:block;
+    margin:0.4em auto;
+    }
+}
